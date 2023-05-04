@@ -1,0 +1,42 @@
+.users-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-table-container h2 {
+  text-align: center;
+}
+
+.users-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.users-table th,
+.users-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  height: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}

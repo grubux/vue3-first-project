@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="handleSubmit">
-    <input type="text" v-model="newUser.name" />
-    <input type="text" v-model="newUser.username" />
+    <input type="text" placeholder="name" v-model="newUser.name" />
+    <input type="text" placeholder="username" v-model="newUser.username" />
     <button type="submit">Create User</button>
   </form>
 </template>
@@ -60,3 +60,6 @@ export default defineComponent({
   }
 })
 </script>
+<style>
+@import url('./CreateUser.css');
+</style>

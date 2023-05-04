@@ -68,3 +68,7 @@ export default defineComponent({
   components: { UsersTable, CreateUser }
 })
 </script>
+
+<style>
+@import url('./App.css');
+</style>
