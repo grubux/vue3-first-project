@@ -30,7 +30,7 @@
 import { defineComponent } from 'vue'
 
 import type { PropType } from 'vue'
-import type { User } from '../App.types'
+import type { User } from '../../App.types'
 
 export default defineComponent({
   name: 'UsersTable',

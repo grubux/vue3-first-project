@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import type { User, NewUser } from '../App.types'
+import type { User, NewUser } from '../../App.types'
 
 export default defineComponent({
   name: 'CreateUser',

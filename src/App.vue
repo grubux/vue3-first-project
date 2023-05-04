@@ -13,8 +13,8 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 
-import UsersTable from './components/UsersTable.vue'
-import CreateUser from './components/CreateUser.vue'
+import UsersTable from './components/UsersTable/UsersTable.vue'
+import CreateUser from './components/CreateUser/CreateUser.vue'
 
 import type { Ref } from 'vue'
 import type { User, NewUser, UsersFetched } from './App.types'
